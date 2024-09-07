@@ -48,3 +48,26 @@ Start the development server
 ```bash
 pnpm dev
 ```
+
+
+###--Build contract---
+```bash
+cd contracts
+```
+```bash
+npm i --force
+```
+```bash
+npm run build
+```
+
+###--run fronted---
+```bash
+cd ui 
+```
+```bash
+npm i --force
+```
+```bash
+npm run dev
+```
