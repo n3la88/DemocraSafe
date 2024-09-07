@@ -7,67 +7,33 @@
 
 </div>
 
-### Smart contract (contracts)
+### Build contract
 
 #### Step 1
-
-Install the dependencies for your project
-
-```bash
-npm i
-```
-
-### Step 2
-
-Compile
-
-```bash
-npm run build
-```
-
-### Step 3
-
-Add a deploy alias to config.json
-
-```bash
-zk config
-```
-
-### Step 4 
-
-Deploy your smart contract to the network
-
-```bash
-zk deploy devnet
-```
-
-### Front-End (ui)
-
-Start the development server
-
-```bash
-pnpm dev
-```
-
-
-###--Build contract---
 ```bash
 cd contracts
 ```
+#### Step 2
 ```bash
 npm i --force
 ```
+#### Step 3
 ```bash
 npm run build
 ```
 
-###--run fronted---
+
+### run fronted (ui)
+
+#### Step 1
 ```bash
 cd ui 
 ```
+#### Step 2
 ```bash
 npm i --force
 ```
+#### Step 3
 ```bash
 npm run dev
 ```
